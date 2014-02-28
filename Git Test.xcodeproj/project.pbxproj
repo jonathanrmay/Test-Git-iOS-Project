@@ -21,6 +21,7 @@
 		AB8C19E818C047F3001A6179 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB8C19CA18C047F3001A6179 /* UIKit.framework */; };
 		AB8C19F018C047F3001A6179 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB8C19EE18C047F3001A6179 /* InfoPlist.strings */; };
 		AB8C19F218C047F3001A6179 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8C19F118C047F3001A6179 /* Git_TestTests.m */; };
+		AB8C19FD18C04A6C001A6179 /* JRMTest.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8C19FC18C04A6C001A6179 /* JRMTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		AB8C19ED18C047F3001A6179 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		AB8C19EF18C047F3001A6179 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AB8C19F118C047F3001A6179 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		AB8C19FB18C04A6C001A6179 /* JRMTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRMTest.h; sourceTree = "<group>"; };
+		AB8C19FC18C04A6C001A6179 /* JRMTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRMTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		AB8C19BA18C047F3001A6179 = {
 			isa = PBXGroup;
 			children = (
+				AB8C19FB18C04A6C001A6179 /* JRMTest.h */,
+				AB8C19FC18C04A6C001A6179 /* JRMTest.m */,
 				AB8C19CC18C047F3001A6179 /* Git Test */,
 				AB8C19EB18C047F3001A6179 /* Git TestTests */,
 				AB8C19C518C047F3001A6179 /* Frameworks */,
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB8C19D718C047F3001A6179 /* JRMAppDelegate.m in Sources */,
+				AB8C19FD18C04A6C001A6179 /* JRMTest.m in Sources */,
 				AB8C19D318C047F3001A6179 /* main.m in Sources */,
 				AB8C19DD18C047F3001A6179 /* JRMViewController.m in Sources */,
 			);
